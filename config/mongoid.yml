@@ -21,6 +21,6 @@ test:
 production:
   clients:
     default:
-      uri: <%= ENV['MLAB_URI'] %>
+      uri: mongodb+srv://dbuser1:<password>@capstone-staging-7sppw.mongodb.net/test?retryWrites=true&w=majority
       options:
         connect_timeout: 15
