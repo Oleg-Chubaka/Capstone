@@ -42,7 +42,8 @@ module Myapp
 
         resource '/api/*',
           :headers => :any,
-          :methods => [:get, :post, :put, :delete, :options]
+          # :methods => [:get, :post, :put, :delete, :options]
+          :methods => [:get]
       end
     end
 
