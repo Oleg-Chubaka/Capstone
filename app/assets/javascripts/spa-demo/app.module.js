@@ -3,7 +3,7 @@
 
   angular
     .module("spa-demo", [
-      "ui.router"
-      // ,"spa-demo.cities"
+      "ui.router",
+      "spa-demo.cities"
     ]);
 })();
