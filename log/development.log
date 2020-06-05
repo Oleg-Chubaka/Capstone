@@ -1,0 +1,109 @@
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 07:18:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (6.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (360.2ms)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'spa/layout.css' with type 'text/css'
+Checked in these paths: 
+  /myapp/app/assets/images
+  /myapp/app/assets/javascripts
+  /myapp/app/assets/stylesheets
+  /usr/local/bundle/gems/rails-assets-angular-resource-1.7.8/app/assets/javascripts
+  /usr/local/bundle/gems/rails-assets-angular-ui-router-0.4.3/app/assets/javascripts
+  /usr/local/bundle/gems/rails-assets-angular-1.7.8/app/assets/javascripts
+  /usr/local/bundle/gems/rails-assets-angular-1.7.8/app/assets/stylesheets
+  /usr/local/bundle/gems/rails-assets-bootstrap-3.4.1/app/assets/documents
+  /usr/local/bundle/gems/rails-assets-bootstrap-3.4.1/app/assets/fonts
+  /usr/local/bundle/gems/rails-assets-bootstrap-3.4.1/app/assets/javascripts
+  /usr/local/bundle/gems/rails-assets-bootstrap-3.4.1/app/assets/stylesheets
+  /usr/local/bundle/gems/rails-assets-jquery-3.4.1/app/assets/javascripts
+  /usr/local/bundle/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /usr/local/bundle/gems/coffee-rails-4.2.2/lib/assets/javascripts):
+    4:     <meta charset="utf-8">
+    5:     <meta http-equiv="X-UA-Compatible" contents="IE=Edge,chrome=1">
+    6:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    7:     <%= stylesheet_link_tag "spa-demo", :media => "all" %>
+    8:     <%= javascript_include_tag "spa-demo" %>
+    9:   </head>
+   10:   <body>
+  app/assets/stylesheets/spa-demo.css:5
+  app/views/ui/index.html.erb:7:in `_app_views_ui_index_html_erb__1624592227799052422_47231973525120'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.2ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 07:18:37 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (62.6ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo.self-de10d151e527f37d0c4b00a58c344faad54bbb594f484fcf2fc5e47995822f13.css?body=1" for 172.20.0.1 at 2020-06-05 07:18:37 +0000
+
+
+Started GET "/assets/spa-demo.self-48c93e01ac80dbc107b7e85c2fe497627c2905dcb3deabd2829faeb0efc25305.js?body=1" for 172.20.0.1 at 2020-06-05 07:18:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 07:20:20 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (6451.3ms)
+Completed 200 OK in 6458ms (Views: 6453.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-b4d380de2c288deed0d48edd3f10be2e38b92a85a549813918779c81667d740b.css?body=1" for 172.20.0.1 at 2020-06-05 07:20:27 +0000
+
+
+Started GET "/assets/spa-demo.self-88faf4f6d09be5c9305dec5100f5e79609e9969df71426855f88ccb030748c8d.css?body=1" for 172.20.0.1 at 2020-06-05 07:20:27 +0000
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 07:21:05 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (2597.0ms)
+Completed 200 OK in 2619ms (Views: 2618.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery/jquery.self-e200ee796ef24add7054280d843a80de75392557bb4248241e870fac0914c0c1.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/jquery.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/bootstrap/bootstrap.self-268df15f6dcd79a7aab1677a4cf8f1bf54a59cb6d1e805efa0e1f8071110762e.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular/angular.self-2e1cec5b7d15403bad9d6142ea3a542eba21915a7e7956731bda1f2825171795.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular-ui-router/angular-ui-router.self-69ed20f1daa2c5fbe793bbec2f258bd84af9abf4abd228a279070cf1b2a66a3e.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular-ui-router.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular-resource/angular-resource.self-5a3842935f21879cfdc7fff714fd65f56994dc11de3f8ca707473aee7ffe3480.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/angular-resource.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/assets/spa-demo.self-595dd25d3bfe960e164ac80115ae3163ab09c5b9f239a7f08cb237da0c81e3b7.js?body=1" for 172.20.0.1 at 2020-06-05 07:21:08 +0000
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 07:22:50 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (111.7ms)
+Completed 200 OK in 114ms (Views: 113.7ms | ActiveRecord: 0.0ms)
