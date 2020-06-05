@@ -121,3 +121,67 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:07:58 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (527.2ms)
+Completed 200 OK in 548ms (Views: 547.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:21:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (1225.4ms)
+Completed 200 OK in 1257ms (Views: 1254.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:21:31 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (78.9ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:22:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (484.5ms)
+Completed 200 OK in 502ms (Views: 502.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:24:12 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (437.5ms)
+Completed 200 OK in 439ms (Views: 438.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/app.module.self-2642be21586a96336556c9b340f7cd109d6d550221733e2f146e68595b1bab5b.js?body=1" for 172.20.0.1 at 2020-06-05 08:24:13 +0000
+
+
+Started GET "/assets/spa-demo/app.router.self-0954615110ea10869d2ad84c95990d7aeac3af85a752b12b94b5e2a92e2ff495.js?body=1" for 172.20.0.1 at 2020-06-05 08:24:13 +0000
+
+
+Started GET "/assets/spa-demo/app.constant.self-caf429865d98b2f59d83e410edfb8cde53b2d696ef6fb032603fa04aacdb36d0.js?body=1" for 172.20.0.1 at 2020-06-05 08:24:13 +0000
+
+
+Started GET "/assets/spa-demo.self-a5a5e16bc06b0e9b1efa8d069501ef3d0f9fd900dfa65bc42aef209f41c64beb.js?body=1" for 172.20.0.1 at 2020-06-05 08:24:13 +0000
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:24:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (1063.2ms)
+Completed 200 OK in 1082ms (Views: 1080.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2020-06-05 08:25:19 +0000
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (488.5ms)
+Completed 200 OK in 491ms (Views: 490.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/app.constant.self-85dc36a114b7fa0e28c6ba8da75b9d5ba1f0e101758070cb9928194f7f0fc583.js?body=1" for 172.20.0.1 at 2020-06-05 08:25:19 +0000
+
+
+Started GET "/assets/spa-demo/pages/main-d56d87ac6df602571c9c3154c374f42ae2d22aceafd0b726492584638a1cfe2c.html" for 172.20.0.1 at 2020-06-05 08:25:20 +0000
