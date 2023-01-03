@@ -15,7 +15,7 @@ end
 
 group :development, :test do 
   gem 'tzinfo-data', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
-  gem 'httparty', '0.14.0'
+  gem 'httparty', '0.21.0'
   gem 'byebug', '9.0.6'
 
   gem 'rspec-rails', '~>3.5.2', '>=3.5.2'
